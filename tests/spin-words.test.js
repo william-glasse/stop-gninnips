@@ -1,4 +1,4 @@
-const spinWords = require('../src/dummy');
+const spinWords = require('../src/spin-words');
 
 describe('Spin Words', () => {
   test('should return an unchanged input if the length of the word is less than 5', () => {
