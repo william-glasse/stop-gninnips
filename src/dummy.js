@@ -1,3 +1,3 @@
-const dummy = () => true;
+const spinWords = (word) => word;
 
-module.exports = dummy;
+module.exports = spinWords;

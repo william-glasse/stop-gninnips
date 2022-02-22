@@ -1,7 +1,7 @@
-const dummy = require('../src/dummy');
+const spinWords = require('../src/dummy');
 
-describe('Name of the group', () => {
-  test('should ', () => {
-    expect(dummy()).toBe(true);
+describe('Spin Words', () => {
+  test('should return an unchanged input if the length of the word is less than 5', () => {
+    expect(spinWords('test')).toBe('test');
   });
 });
