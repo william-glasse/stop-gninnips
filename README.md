@@ -7,7 +7,6 @@ Pomodorro 1
 ✅ Understand problem
 ✅ Single words: returns the same word if the length of the word is less than 5.
 spinWords("test") -> "test"
-
-- Single words: words with length greater than 5 are reversed
-  spinWords("another") -> "rehtona"
-- Multiple words: rules are applied to each word.
+✅ Single words: words with length greater than 5 are reversed
+spinWords("another") -> "rehtona"
+✅ Multiple words: rules are applied to each word.
